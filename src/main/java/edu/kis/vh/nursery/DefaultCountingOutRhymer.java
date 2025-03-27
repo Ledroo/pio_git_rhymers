@@ -16,7 +16,7 @@ public class DefaultCountingOutRhymer {
     }
 
     public boolean callCheck() {
-        return total == INVALID_STACK_VALUE;
+        return total == EMPTY_STACK_INDICATOR;
     }
 
     public boolean isFull() {
@@ -31,7 +31,7 @@ public class DefaultCountingOutRhymer {
 
     public int countOut() {
         if (callCheck())
-            return EMPTY_STACK_INDICATOR;
+            return INVALID_STACK_VALUE;
         return numbers[total--];
     }
 
