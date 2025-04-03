@@ -12,6 +12,21 @@ public class DefaultCountingOutRhymer {
 
     private int total = EMPTY_STACK_INDICATOR;
 
+    public static int getInvalidStackValue()
+    {
+        return INVALID_STACK_VALUE;
+    }
+
+    public static int getEmptyStackIndicator()
+    {
+        return EMPTY_STACK_INDICATOR;
+    }
+
+    public static int getMaxStackCapacity()
+    {
+        return MAX_STACK_CAPACITY;
+    }
+
     public int getTotal()
     {
         return total;
