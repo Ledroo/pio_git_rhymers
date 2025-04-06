@@ -67,7 +67,7 @@ public class Node
 
     /**
      * setNext ustawia następny węzeł
-     * @param next
+     * * @param next
      */
     public void setNext(Node next)
     {
